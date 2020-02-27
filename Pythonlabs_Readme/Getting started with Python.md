@@ -1,5 +1,7 @@
 # Getting started with Python
 
+## Table of Contents
+
 [Overview](#overview)
 
 [Pre-Requisites](#pre-requisites)
@@ -59,29 +61,29 @@ For installing Python we need to download the software from the python website. 
 
 Follow the images for steps to install python.
 
-Step-1: Double click on the Python 3.x.x setup and select Customize installation.
+**Step-1.** Double click on the Python 3.x.x setup and select Customize installation.
  
 ![](https://raw.githubusercontent.com/testlabs1/python_labs/master/Pythonlabs_Images/Getting%20started%20with%20Python/Install-1.png)
 
-Step-2: Select the installation files to be save path from Browse button
+**Step-2.** Select the installation files to be save path from Browse button
 
 ![](https://raw.githubusercontent.com/testlabs1/python_labs/master/Pythonlabs_Images/Getting%20started%20with%20Python/Install-2.png)
 
 ![](https://raw.githubusercontent.com/testlabs1/python_labs/master/Pythonlabs_Images/Getting%20started%20with%20Python/Install-3.png)
 
  
-Note: We need to add the installed software path in Environment variables for that follow the steps.
-Step-3: Right click on This PC Icon and select properties there after you can see left side of the opened window click on the Advanced system settings.
+**Note:** We need to add the installed software path in Environment variables for that follow the steps.
+**Step-3.** Right click on This PC Icon and select properties there after you can see left side of the opened window click on the Advanced system settings.
 
 ![](https://raw.githubusercontent.com/testlabs1/python_labs/master/Pythonlabs_Images/Getting%20started%20with%20Python/Install-4.png)
 
-Step-4: Select the Environment variables and Edit it.
+**Step-4.**** Select the Environment variables and Edit it.
 
 ![](https://raw.githubusercontent.com/testlabs1/python_labs/master/Pythonlabs_Images/Getting%20started%20with%20Python/Install-5.png)
  
 ![](https://raw.githubusercontent.com/testlabs1/python_labs/master/Pythonlabs_Images/Getting%20started%20with%20Python/Install-6.png)
 
-Step-6: Paste the installed software path by selecting New and select the OK.
+**Step-5.** Paste the installed software path by selecting New and select the OK.
    
 ![](https://raw.githubusercontent.com/testlabs1/python_labs/master/Pythonlabs_Images/Getting%20started%20with%20Python/Install-7.png)
 
@@ -89,7 +91,9 @@ Step-6: Paste the installed software path by selecting New and select the OK.
 
 ![](https://raw.githubusercontent.com/testlabs1/python_labs/master/Pythonlabs_Images/Getting%20started%20with%20Python/Install-9.png)
 
-Using Windows PowerShell: Open Windows PowerShell (Admin) in Windows 10, type SystemPropertiesAdvanced and click Enter to immediately open the System Properties
+### Using Windows PowerShell 
+
+Open Windows PowerShell (Admin) in Windows 10, type SystemPropertiesAdvanced and click Enter to immediately open the System Properties
 
 ![](https://raw.githubusercontent.com/testlabs1/python_labs/master/Pythonlabs_Images/Getting%20started%20with%20Python/Install-10.png)
 
@@ -101,30 +105,30 @@ Visual Studio Code can be available in the Apps.
 
 After opening the Visual Studio Code, we need to configure the python to Visual Studio Code. Follow the below steps to complete the setup.
 
-Step-1: Select the Extensions from the left side of the Visual Studio Code and search for the Python.
+**Step-1.**** Select the Extensions from the left side of the Visual Studio Code and search for the Python.
  
 ![](https://raw.githubusercontent.com/testlabs1/python_labs/master/Pythonlabs_Images/Getting%20started%20with%20Python/VSC-2.png)
 
-Step-2: Select the Python and install it.
+**Step-2.**** Select the Python and install it.
 
 ![](https://raw.githubusercontent.com/testlabs1/python_labs/master/Pythonlabs_Images/Getting%20started%20with%20Python/VSC-3.png)
 
-Step-3: Go to File, select Preferences and then select Settings.
+**Step-3.**** Go to File, select Preferences and then select Settings.
 
 ![](https://raw.githubusercontent.com/testlabs1/python_labs/master/Pythonlabs_Images/Getting%20started%20with%20Python/VSC-4.png)
 
 ![](https://raw.githubusercontent.com/testlabs1/python_labs/master/Pythonlabs_Images/Getting%20started%20with%20Python/VSC-5.png)
 
-Step-4: Select the search bar and type the PythonPath and then select paste the python installed path.
+**Step-4.**** Select the search bar and type the PythonPath and then select paste the python installed path.
 
 ![](https://raw.githubusercontent.com/testlabs1/python_labs/master/Pythonlabs_Images/Getting%20started%20with%20Python/VSC-6.png)
 
 ![](https://raw.githubusercontent.com/testlabs1/python_labs/master/Pythonlabs_Images/Getting%20started%20with%20Python/VSC-7.png)
 
-Step-5: Install the pylint while executing the program (for the first time of python lab creation).
+**Step-5.**** Install the pylint while executing the program (for the first time of python lab creation).
 
 
-Step-6: Install or create the json code for automating debugging.
+**Step-6.**** Install or create the json code for automating debugging.
 
 ![](https://raw.githubusercontent.com/testlabs1/python_labs/master/Pythonlabs_Images/Getting%20started%20with%20Python/VSC-12.png)
 
@@ -139,7 +143,8 @@ Step-6: Install or create the json code for automating debugging.
 You can produce output using print () function in Python. You can pass multiple expressions by separating them with commas, all these the expressions are converted to strings by print () function before writing them to the screen. 
 Syntax: print(value(s), sep= ‘ ‘, end = ‘\n’, file=file, flush=flush) 
 Let see an example to output a message, for this let us create a file called demo.py in the Visual Studio Code and run code as shown below. 
-Note: You can use your preferred IDE/ text editor to write the code. In this course Visual Studio Code will be used to write and execute the Python programs. 
+
+**Note:** You can use your preferred IDE/ text editor to write the code. In this course Visual Studio Code will be used to write and execute the Python programs. 
 Copy the following code and paste it in the Visual Studio Code and save the file with Demo.py name. 
 
 ### Python program to print output on the screen 
