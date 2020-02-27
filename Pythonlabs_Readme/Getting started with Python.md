@@ -59,35 +59,80 @@ For installing Python we need to download the software from the python website. 
 
 Follow the images for steps to install python.
 
+Step-1: Double click on the Python 3.x.x setup and select Customize installation.
+ 
+![](https://raw.githubusercontent.com/testlabs1/python_labs/master/Pythonlabs_Images/Getting%20started%20with%20Python/Install-1.png)
 
+Step-2: Select the installation files to be save path from Browse button
 
+![](https://raw.githubusercontent.com/testlabs1/python_labs/master/Pythonlabs_Images/Getting%20started%20with%20Python/Install-2.png)
 
+![](https://raw.githubusercontent.com/testlabs1/python_labs/master/Pythonlabs_Images/Getting%20started%20with%20Python/Install-3.png)
+
+ 
+Note: We need to add the installed software path in Environment variables for that follow the steps.
+Step-3: Right click on This PC Icon and select properties there after you can see left side of the opened window click on the Advanced system settings.
+
+![](https://raw.githubusercontent.com/testlabs1/python_labs/master/Pythonlabs_Images/Getting%20started%20with%20Python/Install-4.png)
+
+Step-4: Select the Environment variables and Edit it.
+
+![](https://raw.githubusercontent.com/testlabs1/python_labs/master/Pythonlabs_Images/Getting%20started%20with%20Python/Install-5.png)
+ 
+![](https://raw.githubusercontent.com/testlabs1/python_labs/master/Pythonlabs_Images/Getting%20started%20with%20Python/Install-6.png)
+
+Step-6: Paste the installed software path by selecting New and select the OK.
+   
+![](https://raw.githubusercontent.com/testlabs1/python_labs/master/Pythonlabs_Images/Getting%20started%20with%20Python/Install-7.png)
+
+![](https://raw.githubusercontent.com/testlabs1/python_labs/master/Pythonlabs_Images/Getting%20started%20with%20Python/Install-8.png)
+
+![](https://raw.githubusercontent.com/testlabs1/python_labs/master/Pythonlabs_Images/Getting%20started%20with%20Python/Install-9.png)
+
+Using Windows PowerShell: Open Windows PowerShell (Admin) in Windows 10, type SystemPropertiesAdvanced and click Enter to immediately open the System Properties
+
+![](https://raw.githubusercontent.com/testlabs1/python_labs/master/Pythonlabs_Images/Getting%20started%20with%20Python/Install-10.png)
 
 ## Configuring Visual Studio Code for Python
 
-Step-1: Select the Extentions from the left side of the Visual Studio Code and search for the Python.
+Visual Studio Code can be available in the Apps. 
 
+![](https://raw.githubusercontent.com/testlabs1/python_labs/master/Pythonlabs_Images/Getting%20started%20with%20Python/VSC.png)
 
+After opening the Visual Studio Code, we need to configure the python to Visual Studio Code. Follow the below steps to complete the setup.
+
+Step-1: Select the Extensions from the left side of the Visual Studio Code and search for the Python.
+ 
+![](https://raw.githubusercontent.com/testlabs1/python_labs/master/Pythonlabs_Images/Getting%20started%20with%20Python/VSC-2.png)
 
 Step-2: Select the Python and install it.
 
+![](https://raw.githubusercontent.com/testlabs1/python_labs/master/Pythonlabs_Images/Getting%20started%20with%20Python/VSC-3.png)
 
+Step-3: Go to File, select Preferences and then select Settings.
 
-Step-3: Go to File and select Preferences and then select Settings.
+![](https://raw.githubusercontent.com/testlabs1/python_labs/master/Pythonlabs_Images/Getting%20started%20with%20Python/VSC-4.png)
 
-
+![](https://raw.githubusercontent.com/testlabs1/python_labs/master/Pythonlabs_Images/Getting%20started%20with%20Python/VSC-5.png)
 
 Step-4: Select the search bar and type the PythonPath and then select paste the python installed path.
 
+![](https://raw.githubusercontent.com/testlabs1/python_labs/master/Pythonlabs_Images/Getting%20started%20with%20Python/VSC-6.png)
 
+![](https://raw.githubusercontent.com/testlabs1/python_labs/master/Pythonlabs_Images/Getting%20started%20with%20Python/VSC-7.png)
 
 Step-5: Install the pylint while executing the program (for the first time of python lab creation).
 
 
-
 Step-6: Install or create the json code for automating debugging.
 
+![](https://raw.githubusercontent.com/testlabs1/python_labs/master/Pythonlabs_Images/Getting%20started%20with%20Python/VSC-12.png)
 
+![](https://raw.githubusercontent.com/testlabs1/python_labs/master/Pythonlabs_Images/Getting%20started%20with%20Python/VSC-13.png)
+
+![](https://raw.githubusercontent.com/testlabs1/python_labs/master/Pythonlabs_Images/Getting%20started%20with%20Python/VSC-14.png)
+
+![](https://raw.githubusercontent.com/testlabs1/python_labs/master/Pythonlabs_Images/Getting%20started%20with%20Python/VSC-15.png)
 
 ## Print Output in Python
 
@@ -103,11 +148,20 @@ Copy the below command and paste it into the Visual Studio Code
 
 ```print("Hello Python")```
 
-Click Run button (highlighted in blue color at top most right) to run the Python file in terminal. Once the program runs successfully you will get the output at the bottom (highlighted in blue color) as shown below. 
-  
+![](https://raw.githubusercontent.com/testlabs1/python_labs/master/Pythonlabs_Images/Getting%20started%20with%20Python/VSC-8.png)
+
+![](https://raw.githubusercontent.com/testlabs1/python_labs/master/Pythonlabs_Images/Getting%20started%20with%20Python/VSC-10.png)
+
+![](https://raw.githubusercontent.com/testlabs1/python_labs/master/Pythonlabs_Images/Getting%20started%20with%20Python/VSC-11.png)
+
+Click Run button (highlighted in blue color at topmost right) to run the Python file in terminal. Once the program runs successfully you will get the output at the bottom (highlighted in blue color) as shown below. 
+
+![](https://raw.githubusercontent.com/testlabs1/python_labs/master/Pythonlabs_Images/Getting%20started%20with%20Python/VSC-12.png)
+
+![](https://raw.githubusercontent.com/testlabs1/python_labs/master/Pythonlabs_Images/Getting%20started%20with%20Python/VSC-15.png)
+ 
 **Note:**<br>
 
 In this lab Python 3.x is used for demonstrating the different concepts in Python. Please make sure you are using the right version while executing demos. 
-
 
 You have successfully completed this tutorial. In this Training lab we have learnt Python program to print output on the screen in Azure. We have learnt on how to Python, How Python connects with Visual Studio Code.
