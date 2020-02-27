@@ -97,7 +97,7 @@ Let see an example to output a message, for this let us create a file called dem
 Note: You can use your preferred IDE/ text editor to write the code. In this course Visual Studio Code will be used to write and execute the Python programs. 
 Copy the following code and paste it in the Visual Studio Code and save the file with Demo.py name. 
 
-### Python program to print output on the screen 
+### Python program to print output on the screen 
 
 Copy the below command and paste it into the Visual Studio Code
 
@@ -107,7 +107,7 @@ Click Run button (highlighted in blue color at top most right) to run the Python
   
 **Note:**<br>
 
-        In this lab Python 3.x is used for demonstrating the different concepts in Python. Please make sure you are using the right version while executing demos. 
+In this lab Python 3.x is used for demonstrating the different concepts in Python. Please make sure you are using the right version while executing demos. 
 
 
 You have successfully completed this tutorial. In this Training lab we have learnt Python program to print output on the screen in Azure. We have learnt on how to Python, How Python connects with Visual Studio Code.
