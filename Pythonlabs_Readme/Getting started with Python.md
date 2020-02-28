@@ -57,7 +57,6 @@ In this section we will login to the OCI console and adjust your screen size (if
 
 <img src="https://github.com/testlabs1/python_labs/blob/master/Pythonlabs_Images/Getting%20started%20with%20Python/Resolution-1.png" alt="image-alt-text">
 
-
 ## Installing Python
 
 For installing Python we need to download the software from the python website. Copy below URL and paste it into Chrome and download latest version.
@@ -71,9 +70,6 @@ Follow the images for steps to install python.
 **Step-1.** Double click on the Python 3.x.x setup and select Customize installation.
  
 <img src="https://raw.githubusercontent.com/testlabs1/python_labs/master/Pythonlabs_Images/Getting%20started%20with%20Python/Install-1.png" alt="image-alt-text">
-
-<img src="https://raw.githubusercontent.com/oracle/learning-library/master/oci-library/qloudable/Deploying_Jenkins/img/Jenkins_027.PNG" alt="image-alt-text">
-
 
 
 **Step-2.** Select the installation files to be save path from Browse button
