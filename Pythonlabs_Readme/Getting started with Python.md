@@ -80,7 +80,7 @@ Follow the images for steps to install python.
 
 ![](https://raw.githubusercontent.com/testlabs1/python_labs/master/Pythonlabs_Images/Getting%20started%20with%20Python/Install-4.png)
 
-**Step-4.**** Select the Environment variables and Edit it.
+**Step-4.** Select the Environment variables and Edit it.
 
 ![](https://raw.githubusercontent.com/testlabs1/python_labs/master/Pythonlabs_Images/Getting%20started%20with%20Python/Install-5.png)
  
@@ -108,30 +108,30 @@ Visual Studio Code can be available in the Apps.
 
 After opening the Visual Studio Code, we need to configure the python to Visual Studio Code. Follow the below steps to complete the setup.
 
-**Step-1.**** Select the Extensions from the left side of the Visual Studio Code and search for the Python.
+**Step-1.** Select the Extensions from the left side of the Visual Studio Code and search for the Python.
  
 ![](https://raw.githubusercontent.com/testlabs1/python_labs/master/Pythonlabs_Images/Getting%20started%20with%20Python/VSC-2.png)
 
-**Step-2.**** Select the Python and install it.
+**Step-2.** Select the Python and install it.
 
 ![](https://raw.githubusercontent.com/testlabs1/python_labs/master/Pythonlabs_Images/Getting%20started%20with%20Python/VSC-3.png)
 
-**Step-3.**** Go to File, select Preferences and then select Settings.
+**Step-3.** Go to File, select Preferences and then select Settings.
 
 ![](https://raw.githubusercontent.com/testlabs1/python_labs/master/Pythonlabs_Images/Getting%20started%20with%20Python/VSC-4.png)
 
 ![](https://raw.githubusercontent.com/testlabs1/python_labs/master/Pythonlabs_Images/Getting%20started%20with%20Python/VSC-5.png)
 
-**Step-4.**** Select the search bar and type the PythonPath and then select paste the python installed path.
+**Step-4.** Select the search bar and type the PythonPath and then select paste the python installed path.
 
 ![](https://raw.githubusercontent.com/testlabs1/python_labs/master/Pythonlabs_Images/Getting%20started%20with%20Python/VSC-6.png)
 
 ![](https://raw.githubusercontent.com/testlabs1/python_labs/master/Pythonlabs_Images/Getting%20started%20with%20Python/VSC-7.png)
 
-**Step-5.**** Install the pylint while executing the program (for the first time of python lab creation).
+**Step-5.** Install the pylint while executing the program (for the first time of python lab creation).
 
 
-**Step-6.**** Install or create the json code for automating debugging.
+**Step-6.** Install or create the json code for automating debugging.
 
 ![](https://raw.githubusercontent.com/testlabs1/python_labs/master/Pythonlabs_Images/Getting%20started%20with%20Python/VSC-12.png)
 
@@ -169,7 +169,6 @@ Click Run button (highlighted in blue color at topmost right) to run the Python 
 ![](https://raw.githubusercontent.com/testlabs1/python_labs/master/Pythonlabs_Images/Getting%20started%20with%20Python/VSC-15.png)
  
 **Note:**<br>
-
 In this lab Python 3.x is used for demonstrating the different concepts in Python. Please make sure you are using the right version while executing demos. 
 
 You have successfully completed this tutorial. In this Training lab we have learnt Python program to print output on the screen in Azure. We have learnt on how to Python, How Python connects with Visual Studio Code.
