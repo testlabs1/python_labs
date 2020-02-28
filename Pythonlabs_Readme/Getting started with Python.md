@@ -59,87 +59,88 @@ In this section we will login to the OCI console and adjust your screen size (if
 
 For installing Python we need to download the software from the python website. Copy below URL and paste it into Chrome and download latest version.
 
-```https://www.python.org/downloads/```
+```
+https://www.python.org/downloads/
+```
 
 Follow the images for steps to install python.
 
 **Step-1.** Double click on the Python 3.x.x setup and select Customize installation.
  
-![](https://raw.githubusercontent.com/testlabs1/python_labs/master/Pythonlabs_Images/Getting%20started%20with%20Python/Install-1.png)
+<img src="https://raw.githubusercontent.com/testlabs1/python_labs/master/Pythonlabs_Images/Getting%20started%20with%20Python/Install-1.png" alt="image-alt-text">
 
 **Step-2.** Select the installation files to be save path from Browse button
 
-![](https://raw.githubusercontent.com/testlabs1/python_labs/master/Pythonlabs_Images/Getting%20started%20with%20Python/Install-2.png)
+<img src="https://raw.githubusercontent.com/testlabs1/python_labs/master/Pythonlabs_Images/Getting%20started%20with%20Python/Install-2.png" alt="image-alt-text">
 
-![](https://raw.githubusercontent.com/testlabs1/python_labs/master/Pythonlabs_Images/Getting%20started%20with%20Python/Install-3.png)
+<img src="https://raw.githubusercontent.com/testlabs1/python_labs/master/Pythonlabs_Images/Getting%20started%20with%20Python/Install-3.png" alt="image-alt-text">
 
  
 **Note:** We need to add the installed software path in Environment variables for that follow the steps.
 
 **Step-3.** Right click on This PC Icon and select properties there after you can see left side of the opened window click on the Advanced system settings.
 
-![](https://raw.githubusercontent.com/testlabs1/python_labs/master/Pythonlabs_Images/Getting%20started%20with%20Python/Install-4.png)
+<img src="https://raw.githubusercontent.com/testlabs1/python_labs/master/Pythonlabs_Images/Getting%20started%20with%20Python/Install-4.png" alt="image-alt-text">
 
 **Step-4.** Select the Environment variables and Edit it.
 
-![](https://raw.githubusercontent.com/testlabs1/python_labs/master/Pythonlabs_Images/Getting%20started%20with%20Python/Install-5.png)
+<img src="https://raw.githubusercontent.com/testlabs1/python_labs/master/Pythonlabs_Images/Getting%20started%20with%20Python/Install-5.png" alt="image-alt-text">
  
-![](https://raw.githubusercontent.com/testlabs1/python_labs/master/Pythonlabs_Images/Getting%20started%20with%20Python/Install-6.png)
+<img src="https://raw.githubusercontent.com/testlabs1/python_labs/master/Pythonlabs_Images/Getting%20started%20with%20Python/Install-6.png" alt="image-alt-text">
 
 **Step-5.** Paste the installed software path by selecting New and select the OK.
    
-![](https://raw.githubusercontent.com/testlabs1/python_labs/master/Pythonlabs_Images/Getting%20started%20with%20Python/Install-7.png)
+<img src="https://raw.githubusercontent.com/testlabs1/python_labs/master/Pythonlabs_Images/Getting%20started%20with%20Python/Install-7.png" alt="image-alt-text">
 
-![](https://raw.githubusercontent.com/testlabs1/python_labs/master/Pythonlabs_Images/Getting%20started%20with%20Python/Install-8.png)
+<img src="https://raw.githubusercontent.com/testlabs1/python_labs/master/Pythonlabs_Images/Getting%20started%20with%20Python/Install-8.png" alt="image-alt-text">
 
-![](https://raw.githubusercontent.com/testlabs1/python_labs/master/Pythonlabs_Images/Getting%20started%20with%20Python/Install-9.png)
+<img src="https://raw.githubusercontent.com/testlabs1/python_labs/master/Pythonlabs_Images/Getting%20started%20with%20Python/Install-9.png" alt="image-alt-text">
 
 ### Using Windows PowerShell 
 
 Open Windows PowerShell (Admin) in Windows 10, type SystemPropertiesAdvanced and click Enter to immediately open the System Properties
 
-![](https://raw.githubusercontent.com/testlabs1/python_labs/master/Pythonlabs_Images/Getting%20started%20with%20Python/Install-10.png)
+<img src="https://raw.githubusercontent.com/testlabs1/python_labs/master/Pythonlabs_Images/Getting%20started%20with%20Python/Install-10.png" alt="image-alt-text">
 
 ## Configuring Visual Studio Code for Python
 
 Visual Studio Code can be available in the Apps. 
 
-![](https://raw.githubusercontent.com/testlabs1/python_labs/master/Pythonlabs_Images/Getting%20started%20with%20Python/VSC.png)
+<img src="https://raw.githubusercontent.com/testlabs1/python_labs/master/Pythonlabs_Images/Getting%20started%20with%20Python/VSC.png" alt="image-alt-text">
 
 After opening the Visual Studio Code, we need to configure the python to Visual Studio Code. Follow the below steps to complete the setup.
 
 **Step-1.** Select the Extensions from the left side of the Visual Studio Code and search for the Python.
  
-![](https://raw.githubusercontent.com/testlabs1/python_labs/master/Pythonlabs_Images/Getting%20started%20with%20Python/VSC-2.png)
+<img src="https://raw.githubusercontent.com/testlabs1/python_labs/master/Pythonlabs_Images/Getting%20started%20with%20Python/VSC-2.png" alt="image-alt-text">
 
 **Step-2.** Select the Python and install it.
 
-![](https://raw.githubusercontent.com/testlabs1/python_labs/master/Pythonlabs_Images/Getting%20started%20with%20Python/VSC-3.png)
+<img src="https://raw.githubusercontent.com/testlabs1/python_labs/master/Pythonlabs_Images/Getting%20started%20with%20Python/VSC-3.png" alt="image-alt-text">
 
 **Step-3.** Go to File, select Preferences and then select Settings.
 
-![](https://raw.githubusercontent.com/testlabs1/python_labs/master/Pythonlabs_Images/Getting%20started%20with%20Python/VSC-4.png)
+<img src="https://raw.githubusercontent.com/testlabs1/python_labs/master/Pythonlabs_Images/Getting%20started%20with%20Python/VSC-4.png" alt="image-alt-text">
 
-![](https://raw.githubusercontent.com/testlabs1/python_labs/master/Pythonlabs_Images/Getting%20started%20with%20Python/VSC-5.png)
+<img src="https://raw.githubusercontent.com/testlabs1/python_labs/master/Pythonlabs_Images/Getting%20started%20with%20Python/VSC-5.png" alt="image-alt-text">
 
 **Step-4.** Select the search bar and type the PythonPath and then select paste the python installed path.
 
-![](https://raw.githubusercontent.com/testlabs1/python_labs/master/Pythonlabs_Images/Getting%20started%20with%20Python/VSC-6.png)
+<img src="https://raw.githubusercontent.com/testlabs1/python_labs/master/Pythonlabs_Images/Getting%20started%20with%20Python/VSC-6.png" alt="image-alt-text">
 
-![](https://raw.githubusercontent.com/testlabs1/python_labs/master/Pythonlabs_Images/Getting%20started%20with%20Python/VSC-7.png)
+<img src="https://raw.githubusercontent.com/testlabs1/python_labs/master/Pythonlabs_Images/Getting%20started%20with%20Python/VSC-7.png" alt="image-alt-text">
 
 **Step-5.** Install the pylint while executing the program (for the first time of python lab creation).
 
-
 **Step-6.** Install or create the json code for automating debugging.
 
-![](https://raw.githubusercontent.com/testlabs1/python_labs/master/Pythonlabs_Images/Getting%20started%20with%20Python/VSC-12.png)
+<img src="https://raw.githubusercontent.com/testlabs1/python_labs/master/Pythonlabs_Images/Getting%20started%20with%20Python/VSC-12.png" alt="image-alt-text">
 
-![](https://raw.githubusercontent.com/testlabs1/python_labs/master/Pythonlabs_Images/Getting%20started%20with%20Python/VSC-13.png)
+<img src="https://raw.githubusercontent.com/testlabs1/python_labs/master/Pythonlabs_Images/Getting%20started%20with%20Python/VSC-13.png" alt="image-alt-text">
 
-![](https://raw.githubusercontent.com/testlabs1/python_labs/master/Pythonlabs_Images/Getting%20started%20with%20Python/VSC-14.png)
+<img src="https://raw.githubusercontent.com/testlabs1/python_labs/master/Pythonlabs_Images/Getting%20started%20with%20Python/VSC-14.png" alt="image-alt-text">
 
-![](https://raw.githubusercontent.com/testlabs1/python_labs/master/Pythonlabs_Images/Getting%20started%20with%20Python/VSC-15.png)
+<img src="https://raw.githubusercontent.com/testlabs1/python_labs/master/Pythonlabs_Images/Getting%20started%20with%20Python/VSC-15.png" alt="image-alt-text">
 
 ## Using print function Comments in Python
 
@@ -154,19 +155,21 @@ Copy the following code and paste it in the Visual Studio Code and save the file
 
 Copy the below command and paste it into the Visual Studio Code
 
-```print("Hello Python")```
+```
+print("Hello Python")
+```
 
-![](https://raw.githubusercontent.com/testlabs1/python_labs/master/Pythonlabs_Images/Getting%20started%20with%20Python/VSC-8.png)
+<img src="https://raw.githubusercontent.com/testlabs1/python_labs/master/Pythonlabs_Images/Getting%20started%20with%20Python/VSC-8.png" alt="image-alt-text">
 
-![](https://raw.githubusercontent.com/testlabs1/python_labs/master/Pythonlabs_Images/Getting%20started%20with%20Python/VSC-10.png)
+<img src="https://raw.githubusercontent.com/testlabs1/python_labs/master/Pythonlabs_Images/Getting%20started%20with%20Python/VSC-10.png" alt="image-alt-text">
 
-![](https://raw.githubusercontent.com/testlabs1/python_labs/master/Pythonlabs_Images/Getting%20started%20with%20Python/VSC-11.png)
+<img src="https://raw.githubusercontent.com/testlabs1/python_labs/master/Pythonlabs_Images/Getting%20started%20with%20Python/VSC-11.png" alt="image-alt-text">
 
 Click Run button (highlighted in blue color at topmost right) to run the Python file in terminal. Once the program runs successfully you will get the output at the bottom (highlighted in blue color) as shown below. 
 
-![](https://raw.githubusercontent.com/testlabs1/python_labs/master/Pythonlabs_Images/Getting%20started%20with%20Python/VSC-12.png)
+<img src="https://raw.githubusercontent.com/testlabs1/python_labs/master/Pythonlabs_Images/Getting%20started%20with%20Python/VSC-12.png" alt="image-alt-text">
 
-![](https://raw.githubusercontent.com/testlabs1/python_labs/master/Pythonlabs_Images/Getting%20started%20with%20Python/VSC-15.png)
+<img src="https://raw.githubusercontent.com/testlabs1/python_labs/master/Pythonlabs_Images/Getting%20started%20with%20Python/VSC-15.png" alt="image-alt-text">
  
 **Note:**<br>
 In this lab Python 3.x is used for demonstrating the different concepts in Python. Please make sure you are using the right version while executing demos. 
