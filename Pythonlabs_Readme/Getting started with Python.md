@@ -14,6 +14,8 @@
 
 [Using print function Comments in Python](#Using-print-function-Comments-in-Python)
 
+
+
 ## Overview
 
 Python is an interpreted, high-level, general-purpose programming language. Created by Guido van Rossum and first released in 1991, Python's design philosophy emphasizes code readability with its notable use of significant whitespace. Its language constructs and object-oriented approach aim to help programmers write clear, logical code for small and large-scale projects.
@@ -73,6 +75,7 @@ Follow the images for steps to install python.
 
  
 **Note:** We need to add the installed software path in Environment variables for that follow the steps.
+
 **Step-3.** Right click on This PC Icon and select properties there after you can see left side of the opened window click on the Advanced system settings.
 
 ![](https://raw.githubusercontent.com/testlabs1/python_labs/master/Pythonlabs_Images/Getting%20started%20with%20Python/Install-4.png)
@@ -138,7 +141,7 @@ After opening the Visual Studio Code, we need to configure the python to Visual 
 
 ![](https://raw.githubusercontent.com/testlabs1/python_labs/master/Pythonlabs_Images/Getting%20started%20with%20Python/VSC-15.png)
 
-## Print Output in Python
+## Using print function Comments in Python
 
 You can produce output using print () function in Python. You can pass multiple expressions by separating them with commas, all these the expressions are converted to strings by print () function before writing them to the screen. 
 Syntax: print(value(s), sep= ‘ ‘, end = ‘\n’, file=file, flush=flush) 
