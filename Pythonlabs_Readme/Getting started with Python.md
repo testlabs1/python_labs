@@ -53,7 +53,7 @@ In this section we will login to the OCI console and adjust your screen size (if
 
 **Step 2.** Reduce the Browser Display Window Size/Resolution to fit your needs(Below example is for Chrome). 
 
-![](https://qloudableassets.blob.core.windows.net/devops/OCI/advanced-ansible-playbooks/images/2.jpg?st=2019-09-06T10%3A31%3A31Z&se=2022-09-07T10%3A31%3A00Z&sp=rl&sv=2018-03-28&sr=c&sig=fwljWymO6LKz5xubtKh3mAsK3r858hNP%2Bl6%2FtadP4MM%3D)
+<img src="https://github.com/testlabs1/python_labs/blob/master/Pythonlabs_Images/Getting%20started%20with%20Python/Resolution-1.png?raw=true" alt="image-alt-text">
 
 ## Installing Python
 
