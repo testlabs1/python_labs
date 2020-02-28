@@ -37,10 +37,8 @@ Python interpreters are available for many operating systems. A global community
 1 - All screen shots are examples ONLY. Screen shots can be enlarged by Clicking on them
 
 2 - Every User MUST keep below credentials handy.
-
-    User Name/ Login ID
-
-    Password
+        User Name/ Login ID
+        Password
 
 3 - Do NOT use name and other data from screen shots.Only use  data(including subscription id) provided in the content section of the lab
 
