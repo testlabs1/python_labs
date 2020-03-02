@@ -8,7 +8,7 @@
 
 [Login to Azure Console](#login-to-azure-console)
 
-[Numerical Data Types in Python](#INumerical-Data-Types-in-Python)
+[Numerical Data Types in Python](#Numerical-Data-Types-in-Python)
 
 [Date in Python](#Date-in-Python)
 
@@ -24,7 +24,7 @@ Python interpreters are available for many operating systems. A global community
 
 ## Pre-Requisites
 
- Basic knowledge of any computer language
+Basic knowledge of any computer language
 
 
 ## Login to Azure Console
@@ -76,6 +76,15 @@ print("Value of average-marks is:",avg_marks)
 print("Value of vector is:",vec) 
 ```
 
+Click Run button (highlighted in blue color at topmost right) to run the Python file in terminal. Once the program runs successfully you will get the output at the bottom (highlighted in blue color) as shown below. 
+
+
+<img src="https://raw.githubusercontent.com/testlabs1/python_labs/master/Pythonlabs_Images/Getting%20started%20with%20Python/VSC-12.png" alt="image-alt-text">
+
+
+<img src="https://raw.githubusercontent.com/testlabs1/python_labs/master/Pythonlabs_Images/Getting%20started%20with%20Python/VSC-16.png" alt="image-alt-text">
+
+
 
 <img src="https://github.com/testlabs1/python_labs/blob/master/Pythonlabs_Images/Numeric%20and%20Date%20Data%20Types%20in%20Python/Numeric%20Data%20types%20in%20python-1.png" alt="image-alt-text">
 
@@ -101,7 +110,10 @@ print("Division of num1 and num2 is:",num1/num2)
 ```
 
 
- <img src="https://github.com/testlabs1/python_labs/blob/master/Pythonlabs_Images/Numeric%20and%20Date%20Data%20Types%20in%20Python/Numeric%20Data%20types%20in%20python-2.png" alt="image-alt-text">
+Click Run button (highlighted in blue color at topmost right) to run the Python file in terminal.
+
+
+<img src="https://github.com/testlabs1/python_labs/blob/master/Pythonlabs_Images/Numeric%20and%20Date%20Data%20Types%20in%20Python/Numeric%20Data%20types%20in%20python-2.png" alt="image-alt-text">
 
 
 **Step-3:**
@@ -123,8 +135,10 @@ print("Total price is:",Total)
 ```
 
 
-<img src="https://github.com/testlabs1/python_labs/blob/master/Pythonlabs_Images/Numeric%20and%20Date%20Data%20Types%20in%20Python/Numeric%20Data%20types%20in%20python-3.png" alt="image-alt-text">
+Click Run button (highlighted in blue color at topmost right) to run the Python file in terminal.
 
+
+<img src="https://github.com/testlabs1/python_labs/blob/master/Pythonlabs_Images/Numeric%20and%20Date%20Data%20Types%20in%20Python/Numeric%20Data%20types%20in%20python-3.png" alt="image-alt-text">
 
 
 ## Date in Python 
@@ -148,6 +162,9 @@ current_date_time=datetime.now()
 print ("Today's date is:" + str(today)) 
 print ("Today's date and time is:" + str(current_date_time)) 
 ```
+
+
+Click Run button (highlighted in blue color at topmost right) to run the Python file in terminal.
 
 
 <img src="https://github.com/testlabs1/python_labs/blob/master/Pythonlabs_Images/Numeric%20and%20Date%20Data%20Types%20in%20Python/Date%20Data%20types%20in%20python-1.png" alt="image-alt-text">
@@ -182,6 +199,9 @@ print ("Day before yesterday is: "+day[(date.weekday(day_before_yesterday))])
 ```
 
 
+Click Run button (highlighted in blue color at topmost right) to run the Python file in terminal.
+
+
 <img src="https://github.com/testlabs1/python_labs/blob/master/Pythonlabs_Images/Numeric%20and%20Date%20Data%20Types%20in%20Python/Date%20Data%20types%20in%20python-2.png" alt="image-alt-text">
 
 
@@ -213,17 +233,11 @@ print("Your Total Experience is near to : "+str(years)+" Years")
 ```
 
 
+Click Run button (highlighted in blue color at topmost right) to run the Python file in terminal.
+
+
 <img src="https://github.com/testlabs1/python_labs/blob/master/Pythonlabs_Images/Numeric%20and%20Date%20Data%20Types%20in%20Python/Date%20Data%20types%20in%20python-3.png" alt="image-alt-text">
 
-
-Click Run button (highlighted in blue color at topmost right) to run the Python file in terminal. Once the program runs successfully you will get the output at the bottom (highlighted in blue color) as shown below. 
-
-
-<img src="https://raw.githubusercontent.com/testlabs1/python_labs/master/Pythonlabs_Images/Getting%20started%20with%20Python/VSC-12.png" alt="image-alt-text">
-
-
-<img src="https://raw.githubusercontent.com/testlabs1/python_labs/master/Pythonlabs_Images/Getting%20started%20with%20Python/VSC-16.png" alt="image-alt-text">
- 
 
 **Note:**<br>
 In this lab Python 3.x is used for demonstrating the different concepts in Python. Please make sure you are using the right version while executing demos. 
