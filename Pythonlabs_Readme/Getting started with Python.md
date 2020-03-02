@@ -108,12 +108,6 @@ Follow the images for steps to install python.
 <img src="https://raw.githubusercontent.com/testlabs1/python_labs/master/Pythonlabs_Images/Getting%20started%20with%20Python/Install-9.png" alt="image-alt-text">
 
 
-### Using Windows PowerShell 
-
-Open Windows PowerShell (Admin) in Windows 10, type SystemPropertiesAdvanced and click Enter to immediately open the System Properties
-
-<img src="https://raw.githubusercontent.com/testlabs1/python_labs/master/Pythonlabs_Images/Getting%20started%20with%20Python/Install-10.png" alt="image-alt-text">
-
 
 ## Configuring Visual Studio Code for Python
 
