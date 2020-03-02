@@ -58,7 +58,7 @@ In this section we will login to the OCI console and adjust your screen size (if
 
 **Step-1:**
 
-### Numeric types
+**Numeric types**
 
 Python supports the following numerical data types int, float and complex. The integer numbers (e.g. 8, 3, 120) have type int, the ones with a fractional part (e.g. 5.0, 1.6) have type float. Python also has built-in support for complex numbers and uses the j or J suffix to indicate the imaginary part (e.g. 2+7j). 
 
@@ -91,7 +91,7 @@ Click Run button (highlighted in blue color at topmost right) to run the Python 
 
 **Step-2:** 
 
-### Different operations on numbers
+**Different operations on numbers**
 
 Python supports most of the operators on numbers for example for addition (+), subtraction (-), mortification (*), division (/) and for power(**). Division (/) always returns a float. To do floor division and get an integer result (discarding any fractional result) you can use the // operator; to calculate the remainder you can use %. 
 
@@ -118,7 +118,7 @@ Click Run button (highlighted in blue color at topmost right) to run the Python 
 
 **Step-3:**
 
-### Type Conversion 
+**Type Conversion**
 
 Sometimes you need to convert from one type to another. Python support type conversation using int (), float () and complex () methods. 
 
@@ -145,7 +145,7 @@ Click Run button (highlighted in blue color at topmost right) to run the Python 
 
 **Step-1:**
 
-### Date and Time in python
+**Date and Time in python**
 
 
 To work with dates as date objects we can import datetime module in Python. A date in Python is not data type of its own. 
@@ -172,7 +172,7 @@ Click Run button (highlighted in blue color at topmost right) to run the Python 
 
 **Step-2:**
 
-### Different time functions
+**Different time functions**
 
 In Python, date, time and datetime classes provides several functions to deal with dates, times and time intervals. Date and datetime are an object in Python, so when you manipulate them, you are manipulating objects and not string or timestamps. Whenever you manipulate dates or time, you need to import datetime function. 
 The datetime classes in Python are categorized into main 5 classes. 
@@ -207,7 +207,7 @@ Click Run button (highlighted in blue color at topmost right) to run the Python 
 
 **Step-3:**
 
-### Date format
+**Date format**
 
 The way date and time is represented may be different in different places, organizations etc. 
 Python has strftime() and strptime() methods to handle the date format. 
