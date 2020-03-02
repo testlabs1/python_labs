@@ -222,7 +222,7 @@ Click Run button (highlighted in blue color at topmost right) to run the Python 
 <img src="https://raw.githubusercontent.com/testlabs1/python_labs/master/Pythonlabs_Images/Getting%20started%20with%20Python/VSC-12.png" alt="image-alt-text">
 
 
-<img src="https://raw.githubusercontent.com/testlabs1/python_labs/master/Pythonlabs_Images/Getting%20started%20with%20Python/VSC-15.png" alt="image-alt-text">
+<img src="https://raw.githubusercontent.com/testlabs1/python_labs/master/Pythonlabs_Images/Getting%20started%20with%20Python/VSC-16.png" alt="image-alt-text">
  
 
 **Note:**<br>
