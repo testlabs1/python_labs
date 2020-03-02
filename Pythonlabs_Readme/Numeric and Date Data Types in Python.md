@@ -8,12 +8,9 @@
 
 [Login to Azure Console](#login-to-azure-console)
 
-[Installing Python](#Installing-Python)
+[Numerical Data Types in Python](#INumerical-Data-Types-in-Python)
 
-[Configuring Visual Studio Code for Python](#Configuring-Visual-Studio-Code-for-Python)
-
-[Using print function Comments in Python](#Using-print-function-Comments-in-Python)
-
+[Date in Python](#Date-in-Python)
 
 
 ## Overview
@@ -80,12 +77,12 @@ print("Value of vector is:",vec)
 ```
 
 
-<img src="" alt="image-alt-text">
+<img src="https://github.com/testlabs1/python_labs/blob/master/Pythonlabs_Images/Numeric%20and%20Date%20Data%20Types%20in%20Python/Numeric%20Data%20types%20in%20python-1.png" alt="image-alt-text">
 
 
 **Step-2:** 
 
-#### Different operations on numbers
+### Different operations on numbers
 
 Python supports most of the operators on numbers for example for addition (+), subtraction (-), mortification (*), division (/) and for power(**). Division (/) always returns a float. To do floor division and get an integer result (discarding any fractional result) you can use the // operator; to calculate the remainder you can use %. 
 
@@ -104,7 +101,7 @@ print("Division of num1 and num2 is:",num1/num2)
 ```
 
 
- <img src="" alt="image-alt-text">
+ <img src="https://github.com/testlabs1/python_labs/blob/master/Pythonlabs_Images/Numeric%20and%20Date%20Data%20Types%20in%20Python/Numeric%20Data%20types%20in%20python-2.png" alt="image-alt-text">
 
 
 **Step-3:**
@@ -126,7 +123,7 @@ print("Total price is:",Total)
 ```
 
 
-<img src="" alt="image-alt-text">
+<img src="https://github.com/testlabs1/python_labs/blob/master/Pythonlabs_Images/Numeric%20and%20Date%20Data%20Types%20in%20Python/Numeric%20Data%20types%20in%20python-3.png" alt="image-alt-text">
 
 
 
@@ -153,7 +150,7 @@ print ("Today's date and time is:" + str(current_date_time))
 ```
 
 
-<img src="" alt="image-alt-text">
+<img src="https://github.com/testlabs1/python_labs/blob/master/Pythonlabs_Images/Numeric%20and%20Date%20Data%20Types%20in%20Python/Date%20Data%20types%20in%20python-1.png" alt="image-alt-text">
 
 
 **Step-2:**
@@ -185,6 +182,9 @@ print ("Day before yesterday is: "+day[(date.weekday(day_before_yesterday))])
 ```
 
 
+<img src="https://github.com/testlabs1/python_labs/blob/master/Pythonlabs_Images/Numeric%20and%20Date%20Data%20Types%20in%20Python/Date%20Data%20types%20in%20python-2.png" alt="image-alt-text">
+
+
 **Step-3:**
 
 ### Date format
@@ -213,7 +213,7 @@ print("Your Total Experience is near to : "+str(years)+" Years")
 ```
 
 
-<img src="" alt="image-alt-text">
+<img src="https://github.com/testlabs1/python_labs/blob/master/Pythonlabs_Images/Numeric%20and%20Date%20Data%20Types%20in%20Python/Date%20Data%20types%20in%20python-3.png" alt="image-alt-text">
 
 
 Click Run button (highlighted in blue color at topmost right) to run the Python file in terminal. Once the program runs successfully you will get the output at the bottom (highlighted in blue color) as shown below. 
