@@ -1,4 +1,4 @@
-# Error Handling in PythonNumerical And Date Data Types In Python
+# Error Handling in Python
 
 ## Table of Contents
 
@@ -16,7 +16,7 @@
 
 [Finally](#Finally)
 
-[Raise an exception](#Raise-an-exception)
+[Raise An Exception](#Raise-An-Exception)
 
 
 ## Overview
@@ -74,7 +74,7 @@ Copy the code and execute in Visual Studio Code tool.
 print(x)
 ``` 
 
-Click Run button (highlighted in blue color at topmost right) to run the Python file in terminal.
+Click Run button (highlighted in blue color at topmost right) to run the Python file in terminal. Once the program runs successfully you will get the output at the bottom (highlighted in blue color) as shown below. 
 
 <img src="https://github.com/testlabs1/python_labs/blob/master/Pythonlabs_Images/Error%20handling%20in%20Python/Error-1.png" alt="image-alt-text">
 
@@ -180,7 +180,7 @@ Click Run button (highlighted in blue color at topmost right) to run the Python 
 
 The program can continue, without leaving the file object open.
 
-## Raise an exception
+## Raise An Exception
 
 As a Python developer you can choose to throw an exception if a condition occurs. To throw (or raise) an exception, use the raise keyword.
 
