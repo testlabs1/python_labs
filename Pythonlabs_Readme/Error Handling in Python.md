@@ -1,4 +1,4 @@
-# Numerical And Date Data Types In Python
+# Error Handling in PythonNumerical And Date Data Types In Python
 
 ## Table of Contents
 
@@ -8,9 +8,15 @@
 
 [Login to Azure Console](#login-to-azure-console)
 
-[Numerical Data Types in Python](#Numerical-Data-Types-in-Python)
+[Exception Handling](#Exception-Handling)
 
-[Date in Python](#Date-in-Python)
+[Many Exceptions](#Many-Exceptions)
+
+[Else](#Else)
+
+[Finally](#Finally)
+
+[Raise an exception](#Raise-an-exception)
 
 
 ## Overview
