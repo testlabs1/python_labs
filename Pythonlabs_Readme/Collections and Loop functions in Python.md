@@ -97,7 +97,7 @@ Look at the following code to understand how you can use Deque
 Copy the code and execute in Visual Studio Code. 
 
 
-...
+```
 import collections
 # Create a deque
 DoubleEnded = collections.deque(["Mon","Tue","Wed"])
@@ -127,7 +127,7 @@ print (DoubleEnded)
 print("Reversing the deque: ")
 DoubleEnded.reverse()
 print (DoubleEnded)
-...
+```
 
 
 Click Run button (highlighted in blue color at topmost right) to run the Python file in terminal.
@@ -150,7 +150,7 @@ The ChainMapis a standard library class, which is located in the collections mod
 
 3- maps :- This function is used to display keys with corresponding values of all the dictionaries in ChainMap.
 
-...
+```
 import collections as col
 con_code1 = {'India' : 'IN', 'China' : 'CN'}
 con_code2 = {'France' : 'FR', 'United Kingdom' : 'GB'}
@@ -158,7 +158,7 @@ chain = col.ChainMap(con_code1, con_code2)
 print("Initial Chain: " + str(chain.maps))
 print('The keys in the ChainMap: ' + str(list(chain.keys())))
 print('The values in the ChainMap: ' + str(list(chain.values())))
-...
+```
 
 
 Click Run button (highlighted in blue color at topmost right) to run the Python file in terminal.
@@ -173,7 +173,7 @@ Click Run button (highlighted in blue color at topmost right) to run the Python 
 A Counter is a container that keeps track of how many times equivalent values are added. It can be used to implement the same algorithms for which bag or multiset data structures are commonly used in other languages
 
 
-...
+```
 from collections import Counter
 
 # empty Counter
@@ -186,7 +186,7 @@ print(counter)  # Counter({'a': 2, 'b': 1})
 
 counter = Counter(a=2, b=3, c=1)
 print(counter)  # Counter({'b': 3, 'a': 2, 'c': 1})
-...
+```
 
 
 Click Run button (highlighted in blue color at topmost right) to run the Python file in terminal.
@@ -203,7 +203,7 @@ The OrderedDict is a subclass of dict object in Python. The only difference betw
 The OrderedDict is a standard library class, which is located in the collections module.
 
 
-...
+```
 import collections
 #Create normal dict
 my_dict = {}
@@ -222,7 +222,7 @@ my_ord_dict['CC'] = 33
 my_ord_dict['DD'] = 44
 for item in my_ord_dict.items():
    print(item)
-...
+```
 
 
 Click Run button (highlighted in blue color at topmost right) to run the Python file in terminal.
@@ -238,7 +238,7 @@ Click Run button (highlighted in blue color at topmost right) to run the Python 
 Defaultdict is a container like dictionaries present in the module collections. Defaultdict is a sub-class of the dict class that returns a dictionary-like object.
 
 
-...
+```
 from collections import defaultdict
 
 defaultdict_demo = defaultdict(set)
@@ -249,7 +249,7 @@ defaultdict_demo['one'].add('1')
 defaultdict_demo['three']
 
 print(dict(defaultdict_demo.items()))
-...
+```
 
 
 
@@ -268,7 +268,7 @@ This class acts like a wrapper around the list objects. It is a useful base clas
 The need for this class came from the necessity to subclass directly from list. It becomes easier to work with this class as the underlying list becomes an attribute.
 
 
-...
+```
 # creating an empty list 
 lst = [] 
   
@@ -282,7 +282,7 @@ for i in range(0, n):
     lst.append(ele) # adding the element 
       
 print(lst) 
-...
+```
 
 
 Click Run button (highlighted in blue color at topmost right) to run the Python file in terminal.
@@ -303,11 +303,11 @@ This is less like the for keyword in other programming languages, and works more
 With the for loop we can execute a set of statements, once for each item in a list, tuple, set etc.
 
 
-...
+```
 fruits = ["apple", "banana", "cherry"]
 for x in fruits:
   print(x) 
-...
+```
 
 
 Click Run button (highlighted in blue color at topmost right) to run the Python file in terminal.
@@ -322,12 +322,12 @@ Click Run button (highlighted in blue color at topmost right) to run the Python 
 While Loops is used to execute a block of statements repeatedly until a given condition is satisfied. Python uses indentation as its method of grouping statements. When a while loop is executed, expr is first evaluated in a Boolean context and if it is true, the loop body is executed.
 
 
-...
+```
 i = 1
 while i < 6:
   print(i)
   i += 1
-  ...
+```
 
 
 Click Run button (highlighted in blue color at topmost right) to run the Python file in terminal.
@@ -342,7 +342,7 @@ Click Run button (highlighted in blue color at topmost right) to run the Python 
 A nested loop is a loop that occurs within another loop, structurally similar to nested if statements.
 
 
-...
+```
 A = [[1, 2, 3], [4, 5, 6], [7, 8, 9]]
 f = 1
 print(A)
@@ -351,8 +351,7 @@ for i in range(0, 3):
     for j in range(0, 3):
        A[i][j] *= f
 print(A)
-
-...
+```
 
 
 Click Run button (highlighted in blue color at topmost right) to run the Python file in terminal.
@@ -366,7 +365,7 @@ Click Run button (highlighted in blue color at topmost right) to run the Python 
 With the break statement we can stop the loop before it has looped through all the items:
 
 
-...
+```
 # program to display all the elements before number 88
 for num in [11, 9, 88, 10, 90, 3, 19]:
    print(num)
@@ -374,7 +373,7 @@ for num in [11, 9, 88, 10, 90, 3, 19]:
 	   print("The number 88 is found")
 	   print("Terminating the loop")
 	   break
-  ...
+```
 
 
 
@@ -389,7 +388,7 @@ Click Run button (highlighted in blue color at topmost right) to run the Python 
 The continue statement rejects all the remaining statements in the current iteration of the loop and moves the control back to the top of the loop. The continue statement can be used in both while and for loops.
 
 
-...
+```
 # Python program to 
 # demonstrate continue 
 # statement 
@@ -406,8 +405,7 @@ for i in range(1, 11):
         # otherwise print the value 
         # of i 
         print(i, end = " ") 
-
-...
+```
 
 
 
