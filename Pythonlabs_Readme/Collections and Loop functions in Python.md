@@ -1,4 +1,4 @@
-# Heading
+# Collections and Loop Functions in Python
 
 ## Table of Contents
 
@@ -8,11 +8,9 @@
 
 [Login to Azure Console](#login-to-azure-console)
 
-[Collections in Python](#Collections-in-Python)
+[Collections](#Collections)
 
-[Demon on collections in Python](#Demo-on-collections-in-Python)
-
-[Loop functions in Python](#Loop-functions-in-Python)
+[Loop Funtions](#Loop-Funtions)
 
 ## Overview
 
@@ -57,40 +55,377 @@ In this section we will login to the OCI console and adjust your screen size (if
 <img src="https://github.com/testlabs1/python_labs/blob/master/Pythonlabs_Images/Getting%20started%20with%20Python/Resolution-1.png" alt="image-alt-text">
 
 
-## Collections in Python 
+## Collections 
 
 **Step-1:**
 
-**Numeric types**
+**Namedtuple( )**
 
-Python supports the following numerical data types int, float and complex. The integer numbers (e.g. 8, 3, 120) have type int, the ones with a fractional part (e.g. 5.0, 1.6) have type float. Python also has built-in support for complex numbers and uses the j or J suffix to indicate the imaginary part (e.g. 2+7j). 
+It returns a tuple with a named entry, which means there will be a name assigned to each value in the tuple. It overcomes the problem of accessing the elements using the index values. With namedtuple( ) it becomes easier to access these values, since you do not have to remember the index values to get specific elements.
 
-Let us see an example to understand the numeric types. 
+Look at the following code to understand how you can use namedtuple.
 
-$@@@@@@Copy the code and execute in Visual Studio Code. 
+Copy the code and execute in Visual Studio Code. 
 
 
 ```
-id=1 
-avg_marks=25.6 
-vec=2+3j 
-print("Value of id is:",id) 
-print("Value of average-marks is:",avg_marks) 
-print("Value of vector is:",vec) 
+import collections as col
+#create employee NamedTuple
+Employee = col.namedtuple('Employee', ['name', 'city', 'salary'])
+#Add two employees
+e1 = Employee('Asim', 'Delhi', '25000')
+e2 = Employee('Bibhas', 'Kolkata', '30000')
+#Access the elements using index
+print('The name and salary of e1: ' + e1[0] + ' and ' + e1[2])
+#Access the elements using attribute name
+print('The name and salary of e2: ' + e2.name + ' and ' + e2.salary)
+#Access the elements using getattr()
+print('The City of e1 and e2: ' + getattr(e1, 'city') + ' and ' + getattr(e2, 'city'))
 ```
 
-@@@@@@@@Click Run button (highlighted in blue color at topmost right) to run the Python file in terminal. Once the program runs successfully you will get the output at the bottom (highlighted in blue color) as shown below. 
+
+Click Run button (highlighted in blue color at topmost right) to run the Python file in terminal. Once the program runs successfully you will get the output at the bottom (highlighted in blue color) as shown below. 
+
+
+<img src="https://github.com/testlabs1/python_labs/blob/master/Pythonlabs_Images/Collections%20and%20Loop%20functions%20in%20Pythons/Named%20Tuple.png" alt="image-alt-text">
+
+
+**step-2:**
+
+**Deque**
+
+A double-ended queue, or deque, has the feature of adding and removing elements from either end. The Deque module is a part of collections library. It has the methods for adding and removing elements which can be invoked directly with arguments.
+
+Look at the following code to understand how you can use Deque
+
+Copy the code and execute in Visual Studio Code. 
+
+
+...
+import collections
+# Create a deque
+DoubleEnded = collections.deque(["Mon","Tue","Wed"])
+print (DoubleEnded)
+
+# Append to the right
+print("Adding to the right: ")
+DoubleEnded.append("Thu")
+print (DoubleEnded)
+
+# append to the left
+print("Adding to the left: ")
+DoubleEnded.appendleft("Sun")
+print (DoubleEnded)
+
+# Remove from the right
+print("Removing from the right: ")
+DoubleEnded.pop()
+print (DoubleEnded)
+
+# Remove from the left
+print("Removing from the left: ")
+DoubleEnded.popleft()
+print (DoubleEnded)
+
+# Reverse the dequeue
+print("Reversing the deque: ")
+DoubleEnded.reverse()
+print (DoubleEnded)
+...
+
+
+Click Run button (highlighted in blue color at topmost right) to run the Python file in terminal.
+
+<img src="https://github.com/testlabs1/python_labs/blob/master/Pythonlabs_Images/Collections%20and%20Loop%20functions%20in%20Pythons/Deque.png" alt="image-alt-text">
+
+
+**Step-3:**
+
+**ChainMap**
+
+The ChainMap is used to encapsulates the dictionaries into single unit.
+
+The ChainMapis a standard library class, which is located in the collections module.
+
+**Operations on ChainMap**
+
+1- keys() :- This function is used to display all the keys of all the dictionaries in ChainMap.
+
+2- values() :- This function is used to display values of all the dictionaries in ChainMap.
+
+3- maps :- This function is used to display keys with corresponding values of all the dictionaries in ChainMap.
+
+...
+import collections as col
+con_code1 = {'India' : 'IN', 'China' : 'CN'}
+con_code2 = {'France' : 'FR', 'United Kingdom' : 'GB'}
+chain = col.ChainMap(con_code1, con_code2)
+print("Initial Chain: " + str(chain.maps))
+print('The keys in the ChainMap: ' + str(list(chain.keys())))
+print('The values in the ChainMap: ' + str(list(chain.values())))
+...
+
+
+Click Run button (highlighted in blue color at topmost right) to run the Python file in terminal.
+
+
+<img src="https://github.com/testlabs1/python_labs/blob/master/Pythonlabs_Images/Collections%20and%20Loop%20functions%20in%20Pythons/chainmap.png" alt="image-alt-text">
+
+
+**Step-4:**
+
+**Counter** 
+
+A Counter is a container that keeps track of how many times equivalent values are added. It can be used to implement the same algorithms for which bag or multiset data structures are commonly used in other languages
+
+
+...
+from collections import Counter
+
+# empty Counter
+counter = Counter()
+print(counter)  # Counter()
+
+# Counter with initial values
+counter = Counter(['a', 'a', 'b'])
+print(counter)  # Counter({'a': 2, 'b': 1})
+
+counter = Counter(a=2, b=3, c=1)
+print(counter)  # Counter({'b': 3, 'a': 2, 'c': 1})
+...
+
+
+Click Run button (highlighted in blue color at topmost right) to run the Python file in terminal.
+
+
+<img src="https://github.com/testlabs1/python_labs/blob/master/Pythonlabs_Images/Collections%20and%20Loop%20functions%20in%20Pythons/counter.png" alt="image-alt-text">
+
+
+**Step-5:**
+
+**OrderedDict** 
+
+The OrderedDict is a subclass of dict object in Python. The only difference between OrderedDict and dict is that, in OrderedDict, it maintains the orders of keys as inserted. In the dict, the ordering may or may not be happen.
+
+The OrderedDict is a standard library class, which is located in the collections module.
+
+
+...
+import collections
+#Create normal dict
+my_dict = {}
+my_dict['AA'] = 11
+my_dict['BB'] = 22
+my_dict['CC'] = 33
+my_dict['DD'] = 44
+for item in my_dict.items():
+   print(item)
+print()
+#Create ordered dict
+my_ord_dict = collections.OrderedDict()
+my_ord_dict['AA'] = 11
+my_ord_dict['BB'] = 22
+my_ord_dict['CC'] = 33
+my_ord_dict['DD'] = 44
+for item in my_ord_dict.items():
+   print(item)
+...
+
+
+Click Run button (highlighted in blue color at topmost right) to run the Python file in terminal.
+
+
+<img src="https://github.com/testlabs1/python_labs/blob/master/Pythonlabs_Images/Collections%20and%20Loop%20functions%20in%20Pythons/Orderdict.png" alt="image-alt-text">
+
+
+
+**Step-6:**
+
+**defaultdict**
+
+Defaultdict is a container like dictionaries present in the module collections. Defaultdict is a sub-class of the dict class that returns a dictionary-like object.
+
+
+...
+from collections import defaultdict
+
+defaultdict_demo = defaultdict(set)
+
+defaultdict_demo['one'].add(1)
+defaultdict_demo['two'].add(2)
+defaultdict_demo['one'].add('1')
+defaultdict_demo['three']
+
+print(dict(defaultdict_demo.items()))
+...
+
+
+
+Click Run button (highlighted in blue color at topmost right) to run the Python file in terminal.
+
+
+<img src="https://github.com/testlabs1/python_labs/blob/master/Pythonlabs_Images/Collections%20and%20Loop%20functions%20in%20Pythons/defaultdict.png" alt="image-alt-text">
+
+
+**Step-7:**
+
+**UserList**
+
+This class acts like a wrapper around the list objects. It is a useful base class for other list like classes which can inherit from them and override the existing methods or even add a fewer new ones as well.
+
+The need for this class came from the necessity to subclass directly from list. It becomes easier to work with this class as the underlying list becomes an attribute.
+
+
+...
+# creating an empty list 
+lst = [] 
+  
+# number of elemetns as input 
+n = int(input("Enter number of elements : ")) 
+  
+# iterating till the range 
+for i in range(0, n): 
+    ele = int(input()) 
+  
+    lst.append(ele) # adding the element 
+      
+print(lst) 
+...
+
+
+Click Run button (highlighted in blue color at topmost right) to run the Python file in terminal.
+
+
+<img src="https://github.com/testlabs1/python_labs/blob/master/Pythonlabs_Images/Collections%20and%20Loop%20functions%20in%20Pythons/Userlist.png" alt="image-alt-text">
+
+
+
+## Loop Funtions
+
+**Step-1:**
+
+**For Loop**
+
+A for loop is used for iterating over a sequence (that is either a list, a tuple, a dictionary, a set, or a string).
+
+This is less like the for keyword in other programming languages, and works more like an iterator method as found in other object-orientated programming languages.
+
+With the for loop we can execute a set of statements, once for each item in a list, tuple, set etc.
+
+
+...
+fruits = ["apple", "banana", "cherry"]
+for x in fruits:
+  print(x) 
+...
+
+
+Click Run button (highlighted in blue color at topmost right) to run the Python file in terminal.
+
+
+<img src="https://github.com/testlabs1/python_labs/blob/master/Pythonlabs_Images/Collections%20and%20Loop%20functions%20in%20Pythons/ForLoop.png" alt="image-alt-text">
+
+
+**Step-2:**
+
+**While Loop**
+
+While Loops is used to execute a block of statements repeatedly until a given condition is satisfied. Python uses indentation as its method of grouping statements. When a while loop is executed, expr is first evaluated in a Boolean context and if it is true, the loop body is executed.
+
+
+...
+i = 1
+while i < 6:
+  print(i)
+  i += 1
+  ...
+
+
+Click Run button (highlighted in blue color at topmost right) to run the Python file in terminal.
+
+
+<img src="https://github.com/testlabs1/python_labs/blob/master/Pythonlabs_Images/Collections%20and%20Loop%20functions%20in%20Pythons/While%20loop.png" alt="image-alt-text">
+
+
+
+**Nested Loop**
+
+A nested loop is a loop that occurs within another loop, structurally similar to nested if statements.
+
+
+...
+A = [[1, 2, 3], [4, 5, 6], [7, 8, 9]]
+f = 1
+print(A)
+for i in range(0, 3):
+    f *= 10
+    for j in range(0, 3):
+       A[i][j] *= f
+print(A)
+
+...
+
+
+Click Run button (highlighted in blue color at topmost right) to run the Python file in terminal.
+
+
+<img src="https://github.com/testlabs1/python_labs/blob/master/Pythonlabs_Images/Collections%20and%20Loop%20functions%20in%20Pythons/NestedLoop.png" alt="image-alt-text">
+
+
+**The break Statement**
+
+With the break statement we can stop the loop before it has looped through all the items:
+
+
+...
+# program to display all the elements before number 88
+for num in [11, 9, 88, 10, 90, 3, 19]:
+   print(num)
+   if(num==88):
+	   print("The number 88 is found")
+	   print("Terminating the loop")
+	   break
+  ...
+
+
+
+Click Run button (highlighted in blue color at topmost right) to run the Python file in terminal.
 
 
 <img src="https://github.com/testlabs1/python_labs/blob/master/Pythonlabs_Images/Collections%20and%20Loop%20functions%20in%20Pythons/breakstatement.png" alt="image-alt-text">
 
 
-<img src="https://raw.githubusercontent.com/testlabs1/python_labs/master/Pythonlabs_Images/Getting%20started%20with%20Python/VSC-16.png" alt="image-alt-text">
+**The continue Statement**
+
+The continue statement rejects all the remaining statements in the current iteration of the loop and moves the control back to the top of the loop. The continue statement can be used in both while and for loops.
+
+
+...
+# Python program to 
+# demonstrate continue 
+# statement 
+  
+# loop from 1 to 10 
+for i in range(1, 11): 
+  
+    # If i is equals to 6,   
+    # continue to next iteration   
+    # without printing  
+    if i == 6: 
+        continue
+    else: 
+        # otherwise print the value 
+        # of i 
+        print(i, end = " ") 
+
+...
 
 
 
-<img src="https://github.com/testlabs1/python_labs/blob/master/Pythonlabs_Images/Numeric%20and%20Date%20Data%20Types%20in%20Python/Numeric%20Data%20types%20in%20python-1.png" alt="image-alt-text">
+Click Run button (highlighted in blue color at topmost right) to run the Python file in terminal.
 
+
+<img src="https://github.com/testlabs1/python_labs/blob/master/Pythonlabs_Images/Collections%20and%20Loop%20functions%20in%20Pythons/continue%20satatement.png" alt="image-alt-text">
 
 
 **Note:**<br>
