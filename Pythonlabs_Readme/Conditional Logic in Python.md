@@ -310,7 +310,7 @@ Click Run button (highlighted in blue color at topmost right) to run the Python 
 
 **Nested If**
 
-You can have **if** statements inside **if** statements, this is called nested  Nested if statements.
+You can have **if** statements inside **if** statements, this is called Nested if statements.
 
 Copy the code and execute in Visual Studio Code tool.
 
@@ -335,7 +335,7 @@ Click Run button (highlighted in blue color at topmost right) to run the Python 
 
 **The pass Statement**
 
-if statements cannot be empty, but if you for some reason have an **if** statement with no content, put in the pass statement to avoid getting an error.
+if statements cannot be empty, but if you for some reason have an **if** statement with no content, put in the **pass** statement to avoid getting an error.
 
 Copy the code and execute in Visual Studio Code tool.
 
