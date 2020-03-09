@@ -57,8 +57,6 @@ In this section we will login to the OCI console and adjust your screen size (if
 
 ## Collections 
 
-**Step-1:**
-
 **Namedtuple( )**
 
 It returns a tuple with a named entry, which means there will be a name assigned to each value in the tuple. It overcomes the problem of accessing the elements using the index values. With namedtuple( ) it becomes easier to access these values, since you do not have to remember the index values to get specific elements.
@@ -89,8 +87,6 @@ Click Run button (highlighted in blue color at topmost right) to run the Python 
 
 <img src="https://github.com/testlabs1/python_labs/blob/master/Pythonlabs_Images/Collections%20and%20Loop%20functions%20in%20Pythons/Named%20Tuple.png" alt="image-alt-text">
 
-
-**step-2:**
 
 **Deque**
 
@@ -139,7 +135,6 @@ Click Run button (highlighted in blue color at topmost right) to run the Python 
 <img src="https://github.com/testlabs1/python_labs/blob/master/Pythonlabs_Images/Collections%20and%20Loop%20functions%20in%20Pythons/Deque.png" alt="image-alt-text">
 
 
-**Step-3:**
 
 **ChainMap**
 
@@ -172,7 +167,6 @@ Click Run button (highlighted in blue color at topmost right) to run the Python 
 <img src="https://github.com/testlabs1/python_labs/blob/master/Pythonlabs_Images/Collections%20and%20Loop%20functions%20in%20Pythons/chainmap.png" alt="image-alt-text">
 
 
-**Step-4:**
 
 **Counter** 
 
@@ -201,7 +195,6 @@ Click Run button (highlighted in blue color at topmost right) to run the Python 
 <img src="https://github.com/testlabs1/python_labs/blob/master/Pythonlabs_Images/Collections%20and%20Loop%20functions%20in%20Pythons/counter.png" alt="image-alt-text">
 
 
-**Step-5:**
 
 **OrderedDict** 
 
@@ -239,7 +232,6 @@ Click Run button (highlighted in blue color at topmost right) to run the Python 
 
 
 
-**Step-6:**
 
 **defaultdict**
 
@@ -267,7 +259,7 @@ Click Run button (highlighted in blue color at topmost right) to run the Python 
 <img src="https://github.com/testlabs1/python_labs/blob/master/Pythonlabs_Images/Collections%20and%20Loop%20functions%20in%20Pythons/defaultdict.png" alt="image-alt-text">
 
 
-**Step-7:**
+
 
 **UserList**
 
@@ -302,8 +294,6 @@ Click Run button (highlighted in blue color at topmost right) to run the Python 
 
 ## Loop Functions
 
-**Step-1:**
-
 **For Loop**
 
 A for loop is used for iterating over a sequence (that is either a list, a tuple, a dictionary, a set, or a string).
@@ -326,7 +316,6 @@ Click Run button (highlighted in blue color at topmost right) to run the Python 
 <img src="https://github.com/testlabs1/python_labs/blob/master/Pythonlabs_Images/Collections%20and%20Loop%20functions%20in%20Pythons/ForLoop.png" alt="image-alt-text">
 
 
-**Step-2:**
 
 **While Loop**
 
@@ -431,4 +420,4 @@ Click Run button (highlighted in blue color at topmost right) to run the Python 
 **Note:**<br>
 In this lab Python 3.x is used for demonstrating the different concepts in Python. Please make sure you are using the right version while executing demos. 
 
-You have successfully completed this tutorial. In this Training lab we have learnt Python program to print output on the screen in Azure. We have learnt on how to Python, How Python connects with Visual Studio Code.
+You have successfully completed this tutorial. In this Training lab we have learnt Python program to print output on the screen in Azure. We have learnt on how to Python, How Python connects with Visual Studio Code.s
