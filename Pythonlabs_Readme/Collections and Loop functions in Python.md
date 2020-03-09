@@ -10,7 +10,7 @@
 
 [Collections](#Collections)
 
-[Loop Funtions](#Loop-Funtions)
+[Loop Functions](#Loop-Functions)
 
 ## Overview
 
@@ -300,7 +300,7 @@ Click Run button (highlighted in blue color at topmost right) to run the Python 
 
 
 
-## Loop Funtions
+## Loop Functions
 
 **Step-1:**
 
