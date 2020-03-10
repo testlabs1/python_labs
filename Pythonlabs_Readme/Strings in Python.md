@@ -29,7 +29,6 @@ Python interpreters are available for many operating systems. A global community
 2- Pre-Installed Python
 3- Pre-Installed Visual Studio Code
 
-
 ## Login to Azure Console
 
 ### Before you Begin
