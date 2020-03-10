@@ -25,8 +25,11 @@ Python interpreters are available for many operating systems. A global community
 ## Pre-Requisites
 
 1- Basic knowledge of any computer language
+
 2- Pre-Installed Python
+
 3- Pre-Installed Visual Studio Code
+
 
 
 ## Login to Azure Console
