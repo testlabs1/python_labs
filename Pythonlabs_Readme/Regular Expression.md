@@ -29,8 +29,13 @@ Python interpreters are available for many operating systems. A global community
  
 ## Pre-Requisites
  
- Basic knowledge of any computer language
- 
+1- Basic knowledge of any computer language
+
+2- Pre-Installed Python
+
+3- Pre-Installed Visual Studio Code
+
+
 ## Login to Azure Console
  
 ### Before you Begin:
@@ -55,8 +60,9 @@ In this section we will login to the OCI console and adjust your screen size (if
 **Note:** Your password should be updated automatically for you, but sometimes you may be asked to change it after signing in the first time. If prompted, please update the password. You can use this one to expedite things: Azure123Q!!!! . It will not be saved after this lab expires.
  
 **Step 2.** Reduce the Browser Display Window Size/Resolution to fit your needs(Below example is for Chrome). 
- 
-![](https://qloudableassets.blob.core.windows.net/devops/OCI/advanced-ansible-playbooks/images/2.jpg?st=2019-09-06T10%3A31%3A31Z&se=2022-09-07T10%3A31%3A00Z&sp=rl&sv=2018-03-28&sr=c&sig=fwljWymO6LKz5xubtKh3mAsK3r858hNP%2Bl6%2FtadP4MM%3D)
+
+<img src="https://github.com/testlabs1/python_labs/blob/master/Pythonlabs_Images/Getting%20started%20with%20Python/Resolution-1.png" alt="image-alt-text">
+
  
 ## Regular Expression
 
@@ -72,11 +78,12 @@ The above code defines a RegEx pattern. The pattern is: any five letter string s
 
 Search the string to see if it starts with "The" and ends with "Spain":
 
-import re
+Copy the code and execute in Visual Studio Code. 
 
-#Check if the string starts with "The" and ends with "Spain":
 
 ```
+import re
+#Check if the string starts with "The" and ends with "Spain":
 txt = "The rain in Spain"
 x = re.search("^The.*Spain$", txt)
 
@@ -86,25 +93,40 @@ else:
   print("No match")
 ```
 
+
+Click Run button (highlighted in blue color at topmost right) to run the Python file in terminal. Once the program runs successfully you will get the output at the bottom (highlighted in blue color) as shown below. 
+
 <img src="https://github.com/testlabs1/python_labs/blob/master/Pythonlabs_Images/Regulations%20Expressions%20Img%20Doc%27s/RegEx2.png" alt="image-alt-text">
 
+
+
 **RegEx Functions**
+
 The re module offers a set of functions that allows us to search a string for a match.
+
 
 <img src="https://github.com/testlabs1/python_labs/blob/master/Pythonlabs_Images/Regulations%20Expressions%20Img%20Doc%27s/RegEx3.png" alt="image-alt-text">
 
+
 **Metacharacters** 
+
 Metacharacters are characters with a special meaning.
+
 
 <img src="https://github.com/testlabs1/python_labs/blob/master/Pythonlabs_Images/Regulations%20Expressions%20Img%20Doc%27s/RegEx4.png" alt="image-alt-text">
 
+
 **Special Sequences**
+
 A special sequence is a \ followed by one of the characters in the list below, and has a special meaning.
+
 
 <img src="https://github.com/testlabs1/python_labs/blob/master/Pythonlabs_Images/Regulations%20Expressions%20Img%20Doc%27s/RegEx6.png" alt="image-alt-text">
 
 **Sets**
+
 A set is a set of characters inside a pair of square brackets [] with a special meaning.
+
 
 <img src="https://github.com/testlabs1/python_labs/blob/master/Pythonlabs_Images/Regulations%20Expressions%20Img%20Doc%27s/RegEx5.png" alt="image-alt-text">
 
@@ -114,12 +136,13 @@ A set is a set of characters inside a pair of square brackets [] with a special 
 The findall() function returns a list containing all matches.
 
 **Example**
+
 Print a list of all matches
+
+
 ```
 import re
-
 #Return a list containing every occurrence of "ai":
-
 txt = "The rain in Spain"
 x = re.findall("ai", txt)
 print(x)

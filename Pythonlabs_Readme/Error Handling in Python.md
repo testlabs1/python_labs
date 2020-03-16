@@ -213,6 +213,7 @@ You can define what kind of error to raise, and the text to print to the user.
 **Step-2:**
 
 Raise a TypeError if x is not an integer.
+
 Copy the code and execute in Visual Studio Code tool.
 
 ```

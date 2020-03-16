@@ -156,6 +156,9 @@ The ChainMapis a standard library class, which is located in the collections mod
 
 3- maps :- This function is used to display keys with corresponding values of all the dictionaries in ChainMap.
 
+Copy the code and execute in Visual Studio Code tool.
+
+
 ```
 import collections as col
 con_code1 = {'India' : 'IN', 'China' : 'CN'}
@@ -177,6 +180,8 @@ Click Run button (highlighted in blue color at topmost right) to run the Python 
 **Counter** 
 
 A Counter is a container that keeps track of how many times equivalent values are added. It can be used to implement the same algorithms for which bag or multiset data structures are commonly used in other languages
+
+Copy the code and execute in Visual Studio Code tool.
 
 
 ```
@@ -207,6 +212,8 @@ Click Run button (highlighted in blue color at topmost right) to run the Python 
 The OrderedDict is a subclass of dict object in Python. The only difference between OrderedDict and dict is that, in OrderedDict, it maintains the orders of keys as inserted. In the dict, the ordering may or may not be happen.
 
 The OrderedDict is a standard library class, which is located in the collections module.
+
+Copy the code and execute in Visual Studio Code tool.
 
 
 ```
@@ -243,6 +250,8 @@ Click Run button (highlighted in blue color at topmost right) to run the Python 
 
 Defaultdict is a container like dictionaries present in the module collections. Defaultdict is a sub-class of the dict class that returns a dictionary-like object.
 
+Copy the code and execute in Visual Studio Code tool.
+
 
 ```
 from collections import defaultdict
@@ -272,6 +281,8 @@ Click Run button (highlighted in blue color at topmost right) to run the Python 
 This class acts like a wrapper around the list objects. It is a useful base class for other list like classes which can inherit from them and override the existing methods or even add a fewer new ones as well.
 
 The need for this class came from the necessity to subclass directly from list. It becomes easier to work with this class as the underlying list becomes an attribute.
+
+Copy the code and execute in Visual Studio Code tool.
 
 
 ```
@@ -308,6 +319,8 @@ This is less like the for keyword in other programming languages, and works more
 
 With the for loop we can execute a set of statements, once for each item in a list, tuple, set etc.
 
+Copy the code and execute in Visual Studio Code tool.
+
 
 ```
 fruits = ["apple", "banana", "cherry"]
@@ -326,6 +339,8 @@ Click Run button (highlighted in blue color at topmost right) to run the Python 
 **While Loop**
 
 While Loops is used to execute a block of statements repeatedly until a given condition is satisfied. Python uses indentation as its method of grouping statements. When a while loop is executed, expr is first evaluated in a Boolean context and if it is true, the loop body is executed.
+
+Copy the code and execute in Visual Studio Code tool.
 
 
 ```
@@ -346,6 +361,8 @@ Click Run button (highlighted in blue color at topmost right) to run the Python 
 **Nested Loop**
 
 A nested loop is a loop that occurs within another loop, structurally similar to nested if statements.
+
+Copy the code and execute in Visual Studio Code tool.
 
 
 ```
@@ -370,6 +387,8 @@ Click Run button (highlighted in blue color at topmost right) to run the Python 
 
 With the break statement we can stop the loop before it has looped through all the items:
 
+Copy the code and execute in Visual Studio Code tool.
+
 
 ```
 # program to display all the elements before number 88
@@ -392,6 +411,8 @@ Click Run button (highlighted in blue color at topmost right) to run the Python 
 **The continue Statement**
 
 The continue statement rejects all the remaining statements in the current iteration of the loop and moves the control back to the top of the loop. The continue statement can be used in both while and for loops.
+
+Copy the code and execute in Visual Studio Code tool.
 
 
 ```

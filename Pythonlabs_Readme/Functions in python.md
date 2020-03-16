@@ -10,6 +10,8 @@
 
 [Functions](#Functions)
 
+[Arguments and Types of Arguments](#Arguments-and-Types-of-Arguments)
+
 
 ## Overview
 
@@ -22,7 +24,11 @@ Python interpreters are available for many operating systems. A global community
 
 ## Pre-Requisites
 
-Basic knowledge of any computer language
+1- Basic knowledge of any computer language
+
+2- Pre-Installed Python
+
+3- Pre-Installed Visual Studio Code
 
 
 ## Login to Azure Console
@@ -104,6 +110,7 @@ Click Run button (highlighted in blue color at topmost right) to run the Python 
 
 Embrace keyword arguments in Python Consider using the * operator to require those arguments be specified as keyword arguments. And remember that you can accept arbitrary keyword arguments to the functions you define and pass arbitrary keyword arguments to the functions you call by using the ** operator.
 
+Copy the below command and paste it into the Visual Studio Code
 
 ```
 def my_function(*kids):
@@ -124,6 +131,8 @@ Click Run button (highlighted in blue color at topmost right) to run the Python 
 
 Keyword Arguments Python allows functions to be called using keyword arguments. When we call functions in this way, the order (position) of the arguments can be changed.
 
+Copy the below command and paste it into the Visual Studio Code
+
 ```
 def my_function(child3, child2, child1):
   print("The youngest child is " + child3)
@@ -142,6 +151,7 @@ Click Run button (highlighted in blue color at topmost right) to run the Python 
 
 Python has a different way of representing syntax and default values for function arguments. Default values indicate that the function argument will take that value if no argument value is passed during function call.
 
+Copy the below command and paste it into the Visual Studio Code
 
 ```
 def my_function(country = "Norway"):
@@ -163,6 +173,7 @@ Click Run button (highlighted in blue color at topmost right) to run the Python 
 
 If we pass a list to a function, we have to consider two cases: Elements of a list can be changed in place where actually passes a reference to the list, not a copy of the list. 
 
+Copy the below command and paste it into the Visual Studio Code
 
 ```
 def my_function(food):
@@ -183,6 +194,8 @@ Click Run button (highlighted in blue color at topmost right) to run the Python 
 **Return Values()**
 A return statement ends the execution of the function call and "returns" the result, i.e. the value of the expression following the return keyword, to the caller. If the return statement is without an expression, the special value None is returned.
 
+Copy the below command and paste it into the Visual Studio Code
+
 ```
 def my_function(x):
   return 5 * x
@@ -202,6 +215,7 @@ Click Run button (highlighted in blue color at topmost right) to run the Python 
 **Anonymous Function ()**
 Anonymous function is a function that is defined without a name. While normal functions are defined using the def keyword, in Python anonymous functions are defined using the lambda keyword. Hence, anonymous functions are also called lambda functions.
 
+Copy the below command and paste it into the Visual Studio Code
 
 ```
 def square(x):
@@ -221,6 +235,7 @@ Click Run button (highlighted in blue color at topmost right) to run the Python 
 **Recursive Functions in Python()**
 A recursive function is a function defined in terms of itself via self-referential expressions. This means that the function will continue to call itself and repeat its behavior until some condition is met to return a result.
 
+Copy the below command and paste it into the Visual Studio Code
 
 ```
 def fibonacci_numbers_at_index(count):
