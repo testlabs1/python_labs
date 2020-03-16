@@ -5,7 +5,18 @@
 [Pre-Requisites](#pre-requisites)
  
 [Login to Azure Console](#login-to-azure-console)
+
+[Regular Expression](#Regular-Expression)
+
+[The findal() function](#The-findal()-function)
+
+[The spilt() function](#The-Spilt()-Function)
  
+[The Search()function](#The-Search()-function)
+
+[The Sub() function](#The-Sub()-Function)
+
+
 ## Overview
  
 Python is an interpreted, high-level, general-purpose programming language. Created by Guido van Rossum and first released in 1991, Python's design philosophy emphasizes code readability with its notable use of significant whitespace. Its language constructs and object-oriented approach aim to help programmers write clear, logical code for small and large-scale projects.
